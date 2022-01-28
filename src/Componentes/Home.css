@@ -1,0 +1,13 @@
+.header{
+    background-color: black;
+    color: white;
+}
+.div{
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.divs{
+    display: inline-block;
+}
