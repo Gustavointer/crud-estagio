@@ -17,15 +17,10 @@ const Home = () => {
                             <li><Link to="/tutorial">Tutorial</Link></li>
                         </ul>
                     </nav>
-                    <Routes>
-                        <Route exact path="/" component={Home} />
-                        <Route path="/tarefa" component={Tarefa} />
-                    </Routes>
                 </div>
             </header>
             <div className='div'>
                 <h1>React</h1>
-                <p>Uma biblioteca JavaScript para criar interfaces de usuário</p>
             </div>
                 <div className='react'>
                     <h4>O que é React js?</h4>

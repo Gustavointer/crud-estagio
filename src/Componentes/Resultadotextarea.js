@@ -1,12 +1,13 @@
 import React from 'react'
 import Remarkable from 'Remarkable'
+import reactDom from 'react-dom'
 
 class MarkdownEditor extends React.Component {
     constructor(props) {
       super(props);
       this.md = new Remarkable();
       this.handleChange = this.handleChange.bind(this);
-      this.state = { value: 'Olá, **mundo**!' };
+      this.state = { value: 'Olá, tudo bem?' };
     }
   
     handleChange(e) {

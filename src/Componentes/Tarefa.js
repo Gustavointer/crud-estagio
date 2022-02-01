@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-class TodoApp extends React.Component {
+class Tarefa extends React.Component {
     constructor(props) {
       super(props);
       this.state = { items: [], text: '' };
@@ -64,13 +64,13 @@ class TodoApp extends React.Component {
   }
   
   ReactDOM.render(
-    <TodoApp />,
+    <Tarefa />,
     document.getElementById('todos-example')
   );
 
-/*Uma Aplicação
-Usando props e state, nós podemos montar uma pequena aplicação de Lista de Tarefas.
+{/* Uma Aplicação 
+Usando props e state, podemos montar uma pequena aplicação de Lista de Tarefas.
 Este exemplo usa state para manter a lista atual de itens, bem como o texto que o usuário inseriu.
 Apesar de parecer que os event handlers são renderizados inline, eles serão coletados e implementados usando
-a delegação de eventos (event delegation). */
-export default TodoApp;
+a delegação de eventos (event delegation). */}
+export default Tarefa;
