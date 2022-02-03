@@ -40,10 +40,6 @@ class MarkdownEditor extends React.Component {
     }
   }
   
-  ReactDOM.render(
-    <MarkdownEditor />,
-    document.getElementById('markdown-example')
-  );
 // Um Componente Usando Plugins Externos
 // O React é flexível e facilita a interface com outras bibliotecas e frameworks.
 // Este exemplo usa remarkable, uma biblioteca externa de Markdown, para converter o valor de uma <textarea> em tempo real.
