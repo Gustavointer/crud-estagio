@@ -1,8 +1,8 @@
 import React from 'react'
-import Remarkable from 'Remarkable'
+import {Remarkable} from 'remarkable'
 import reactDom from 'react-dom'
 
-class MarkdownEditor extends React.Component {
+class Resultadotextarea extends React.Component {
     constructor(props) {
       super(props);
       this.md = new Remarkable();
@@ -20,11 +20,11 @@ class MarkdownEditor extends React.Component {
   
     render() {
       return (
-        <div className="MarkdownEditor">
+        <div className="Resultadotextarea">
           <h3>Entrada</h3>
           <label htmlFor="markdown-content">
             Escreva alguma coisa com markdown
-          </label>
+          </label><br/>
           <textarea
             id="markdown-content"
             onChange={this.handleChange}

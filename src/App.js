@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css';
-import Tarefa from './Componentes/Tarefa.js'
+import Resultadotextarea from './Componentes/Resultadotextarea.js';
+//import Tarefa from './Componentes/Tarefa.js'
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/tarefa" component={Tarefa} />
       </Routes> */}
-      <Tarefa />
+      <Resultadotextarea />
     </div>
   );
 }

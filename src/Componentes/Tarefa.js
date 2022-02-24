@@ -19,8 +19,9 @@ class Tarefa extends React.Component {
             usando a delegação de eventos (event delegation).
           </p>
           <p>Agora você verá o código da aplicação que foi feito</p><br></br>
-          <p><img src='./Imagens/parte1.jpg'/></p>
-          <p><img src='./Imagens/parte2.jpg'/></p>
+          <pre>
+            Meu código
+          </pre>{/* para código do tutorial */}
           <p>Agora você verá o resultado da aplicação logo abaixo</p>
           <h3>Tarefas</h3>
           <TodoList items={this.state.items} />
