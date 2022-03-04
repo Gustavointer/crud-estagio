@@ -6,19 +6,6 @@ import Tarefa from './Tarefa.js'
 const Home = () => {
     return(
         <div className='home'>
-            <header className='header'>
-                <div>
-                    <div>
-                        <Link to="/">React Tutorial</Link>
-                    </div>
-                    <nav className="navbar navbar-light">
-                        <ul className="nav navbar-nav">
-                            <li><Link to="/">Home</Link></li>
-                            <li><Link to="/tutorial">Tutorial</Link></li>
-                        </ul>
-                    </nav>
-                </div>
-            </header>
             <div className='div'>
                 <h1>React</h1>
             </div>
