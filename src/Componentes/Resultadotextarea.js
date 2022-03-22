@@ -21,6 +21,13 @@ class Resultadotextarea extends React.Component {
     render() {
       return (
         <div className="Resultadotextarea">
+          <h3>Um Componente Usando Plugins Externos</h3>
+          <p>O React é flexível e facilita a interface com outras bibliotecas e frameworks.</p>
+          <p>Este exemplo usa remarkable, uma biblioteca externa de Markdown, para converter o valor de uma TEXTAREA em tempo real.</p>
+          <p>Agora você verá o código da aplicação que foi feito</p><br></br>
+          <pre>
+            Código
+          </pre>{/* para código do tutorial */}<br/>
           <h3>Entrada</h3>
           <label htmlFor="markdown-content">
             Escreva alguma coisa com markdown
@@ -39,8 +46,4 @@ class Resultadotextarea extends React.Component {
       );
     }
   }
-  
-// Um Componente Usando Plugins Externos
-// O React é flexível e facilita a interface com outras bibliotecas e frameworks.
-// Este exemplo usa remarkable, uma biblioteca externa de Markdown, para converter o valor de uma <textarea> em tempo real.
 export default Resultadotextarea;

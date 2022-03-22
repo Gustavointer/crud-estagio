@@ -74,7 +74,4 @@ class Tarefa extends React.Component {
     }
   }
   
-
-{/* 
- */}
 export default Tarefa;

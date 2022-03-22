@@ -1,7 +1,6 @@
 import React from "react"
-import reactDom from "react-dom"
 
-class Timer extends React.Component {
+class Exemplosegundos extends React.Component {
     constructor(props) {
       super(props);
       this.state = { seconds: 0 };
@@ -24,20 +23,17 @@ class Timer extends React.Component {
     render() {
       return (
         <div>
+          <h3>Um Componente com Estado (stateful component)</h3>
+          <p>Além de receber dados de entrada (acessados via this.props), um componente pode manter dados do state interno (acessados via this.state).</p>
+          <p>Quando os dados do state de um componente são alterados, o código renderizado será atualizado invocando o método render() novamente.</p>
+          <p>Agora você verá o código da aplicação que foi feito</p><br></br>
+          <pre>
+            Código
+          </pre>{/* para código do tutorial */}<br/>
           Segundos: {this.state.seconds}
         </div>
       );
     }
   }
-  
-  ReactDOM.render(
-    <Timer />,
-    document.getElementById('timer-example')
-  );
-
-// Um Componente com Estado (stateful component)
-// Além de receber dados de entrada (acessados via this.props), um componente pode manter dados do state interno
-// (acessados via this.state). Quando os dados do state de um componente são alterados, o código renderizado será
-// atualizado invocando o método render() novamente.
 
   export default Exemplosegundos;
